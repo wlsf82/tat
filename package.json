@@ -1,0 +1,14 @@
+{
+  "name": "tat",
+  "version": "1.0.0",
+  "description": "sample project",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "./node_modules/.bin/webdriver-manager update && ./node_modules/.bin/protractor"
+  },
+  "author": "Walmyr Filho <wlsf82@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "protractor": "^5.1.1"
+  }
+}
