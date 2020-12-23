@@ -7,13 +7,12 @@ module.exports.config = {
     specs: ["spec.js"],
     capabilities: {
         "browserName": "chrome",
-        "chromeOptions": {
-            "args": [
-                "--disable-infobars"
-            ]
-        }
+        "goog:chromeOptions": {
+            "excludeSwitches": [ "enable-automation" ],
+            "useAutomationExtension": false
+         }
     },
     onPrepare() {
-        browser.ignoreSynchronization = true;
+        browser.waitForAngularEnabled(false);
     }
 };
