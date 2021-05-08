@@ -1,5 +1,7 @@
 # TAT
 
+⚠️ **This project has been deprecated.** ⚠️
+
 ## Installation
 
 `npm i`
